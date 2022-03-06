@@ -4,3 +4,17 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(to bottom, black, gray, #cecece) ;
+    padding: 5px;
+    max-height: 150px;
+    min-height: 50px;
+}
+main{
+    margin-top: 0px;
+    background-color: #cecece;
+
+}
