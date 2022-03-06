@@ -6,15 +6,20 @@
 }
 body{
     margin: auto;
+    background-color: ;
 }
 header{
-    background-image: linear-gradient(to bottom, black, gray, #cecece) ;
+    background-image: linear-gradient(to top, #aa5a5a, #A61C1C) ;
     padding: 5px;
     max-height: 150px;
-    min-height: 50px;
+    min-height: 50px;'  '
 }
 main{
-    margin-top: 0px;
-    background-color: #cecece;
+    margin: 0px auto 0px auto;
+    background-color: #aa5a5a;
+    max-width: 95vw;
+    min-width: 300px;
+    box-shadow: 2px 1px 1px black;
+    border-radius: 2px;
 
 }
