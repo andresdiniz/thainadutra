@@ -16,37 +16,54 @@
     <main>
         <p>Essa é a sua chance de ingressar no mercado digital, ter lucros reais utilizando apenas seu celular e a internet. Acesse já o link.</p>
 
-        <div id="primeiro"><a href="https://bit.ly/3sMprKd" target="_blank"><button id="aproveite">Aproveite!!</button></a></div>
+        <div class="btn">
+            <button id="aproveite">
+                <a href="https://bit.ly/3sMprKd" target="_blank">Aproveite!!</a>
+            </button>
+        </div>
 
         <p id="tempo">Não fique ai parado, o tempo é limitado!</p>
-        <button><a href="https://bit.ly/3tyDlyt"></a></button>
+        <button>
+            <a href="https://bit.ly/3tyDlyt"></a>
+        </button>
 
         <div id="spanRelogio">  
             <a href="https://bit.ly/3INSsdM" target="_blank"><button>Whatsapp</button></a>  
-            
         </div>
 
-        <source media="(min-width: 900px )" srcset="imagens/perfil.jfif" type="image/jfif">
+        <picture>
+            <source media="(max-width: 650px )" srcset="imagens/perfilp.png" type="image/png">
+            <source media="(max-width: 950px )" srcset="imagens/perfilm.png" type="image/png">
+            <img src="imagens/perfilg.png" alt="Foto Thaina">
+        </picture>
         
         <p>Quer ganhar dinheiro sem sair de casa, assista o video onde eu te explico todos os detalhes de como você vai mudar sua realizadade financeira, transformar a sua vida e ter sucesso.</p>
 
-        VIDEO
+        VIDEO Thaina
 
         <h2>Depoimentos:</h2>
-        <section id="depoimentos"
+        <section id="depoimentos">
 
         </section>
-        <p>Deseja receber um curso gratuito no e-mail!</p>
+
+        <p>Deseja receber um curso gratuito no e-mail?</p>
         <form action="email.php" method="post">
             <p>Nome: <input type="text" name="tnome" id="cnome" placeholder="Insira seu nome" maxlength="30" max="12" required></p>
             <p>E-mail: <input type="email" name="temail" id="cemail" placeholder="Insira seu melhor email" maxlength="40" max="12" required></p>
             <input type="submit" value="EU QUERO!!">
         </form>
-        <iframe src="https://www.youtube.com/embed/UpfDHIeF7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div>
+            <iframe src="https://www.youtube.com/embed/UpfDHIeF7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <p>Não perca esta oportunidade! Tire suas duvidas pelo meu Whatsapp</p>
-        <a href="https://bit.ly/3INSsdM" target="_blank"><button>Whatsapp</button></a>
+        <div class="btn">
+            
+                <a href="https://bit.ly/3INSsdM" target="_blank"><button>Whatsapp</button></a>
+            </div>
         <p>Não perca esta chnace! Adquira já seu treinamento!</p>
-        <a href="https://bit.ly/3tyDlyt" target="_blank"><button>Não Perca!</button></a>
+        <div class="btn">
+            <a href="https://bit.ly/3tyDlyt" target="_blank"></a><button>Não Perca!</button>
+            </div>
     </main>
     <footer><p>Thaina Dutra Reis - Copyright 2022</p></footer>
 </body>
