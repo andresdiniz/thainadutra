@@ -10,7 +10,7 @@ body, html{
      min-height: 100vh
 }
 header{
-    background-image: linear-gradient(to top, #aa5a5a,#BF0D0D, #A61C1C) ;
+    background-image: linear-gradient(to top, #aa5a5a,#BF0D0D, #731414) ;
     padding: 5px;
     max-height: 150px;
     min-height: 50px;
@@ -128,7 +128,7 @@ button#perca{
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:1.5em;
+    font-size:1.2em;
     box-shadow: 1px 1px 2px #888;
     z-index:1350;
     }
