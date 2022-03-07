@@ -110,7 +110,7 @@ div > iframe{
 }
 button#whats{
     display: block;
-    width:65%;
+    width:auto;
     height:25%;
     background-color:#25d366;
     color:#FFF;
@@ -122,7 +122,7 @@ button#whats{
 }
 button#perca{
     display: block;
-    width:65%;
+    width:auto;
     height:25%;
     background-color:#25d366;
     color:#FFF;
