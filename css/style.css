@@ -43,6 +43,7 @@ a{
 }
 button#aproveite{
     display: block;
+    margin: auto;
     width: 50%;
     height: 50px;
     background-color: #25d366;
@@ -60,7 +61,8 @@ div#spanRelogio{
     color: azure;
     height: 70px;
     width: 85%;
-    margin: auto;
+    margin: 0px auto 0px auto;
+    padding: 1px;
     font-size: 3em;
     text-align: center;
     border-radius: 10px;
