@@ -110,6 +110,7 @@ div > iframe{
 }
 button#whats{
     display: block;
+    padding: 10px 20px;
     width:auto;
     height:25%;
     background-color:#25d366;
@@ -122,6 +123,7 @@ button#whats{
 }
 button#perca{
     display: block;
+    padding: 10px 20px;
     width:auto;
     height:25%;
     background-color:#25d366;
