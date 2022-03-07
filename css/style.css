@@ -87,6 +87,8 @@ div > iframe{
     padding: 10px;
     background-color: black;
 }
+
+
 a#flutuante{
 position:fixed;
 width:60px;
@@ -100,4 +102,13 @@ text-align:center;
 font-size:30px;
 box-shadow: 1px 1px 2px #888;
 z-index:1350;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: #084A73;
+    height: 25px;
+    text-align: center;
+    padding: auto;
 }
