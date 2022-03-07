@@ -44,8 +44,8 @@ a{
 button#aproveite{
     display: block;
     margin: auto;
-    width: 50%;
-    height: 50px;
+    width:65%;
+    height:25%;
     background-color: #25d366;
     box-shadow: 2px 2px 2px black;
     border-radius: 20px;
@@ -106,25 +106,25 @@ div > iframe{
 }
 button#whats{
     display: block;
-    width:55%;
+    width:65%;
     height:25%;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:2.0em;
+    font-size:1.5em;
     box-shadow: 1px 1px 2px #888;
     z-index:1350;
 }
 button#perca{
     display: block;
-    width:55%;
+    width:65%;
     height:25%;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:1em;
+    font-size:1.5em;
     box-shadow: 1px 1px 2px #888;
     z-index:1350;
     }
