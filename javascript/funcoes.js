@@ -1,6 +1,6 @@
-var min, seg,mins,segs;		min = 02;		seg = 1		
+var hr ,min, seg,mins,segs;	hr=01;	min = 02;		seg = 1		
 	function relogio(){			
-		if((min > 0) || (seg > 0)){				
+		if((hr >0 || min > 0) || (seg > 0)){				
 			if(seg == 0){					
 				seg = 59;					
 				min = min - 1	
@@ -19,6 +19,6 @@ var min, seg,mins,segs;		min = 02;		seg = 1
 		}			
 		else{				
 			document.getElementById('spanRelogio').innerHTML = "00:00";			
-		}		
+		}
 	return mins,segs;
-    }	
+    }
