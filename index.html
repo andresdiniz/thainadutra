@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mude sua vida!</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script language="javaScript" src="javascript/funcoes.js"></script>
-</head>
-
-<body onLoad="relogio()">
-    <header>
-        <h1>Fabrica de Riqueza</h1>
-    </header>
-    <main>
-        <p>Essa é a sua chance de ingressar no mercado digital, ter lucros reais utilizando apenas seu celular e a internet. Acesse já o link.</p>
-
-        <div class="btn">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mude sua vida!</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <script language="javaScript" src="javascript/funcoes.js"></script>
+   </head>
+   <body onLoad="relogio()">
+      <header>
+         <h1>Fabrica de Riqueza</h1>
+      </header>
+      <main>
+         <p>Essa é a sua chance de ingressar no mercado digital, ter lucros reais utilizando apenas seu celular e a internet. Acesse já o link.</p>
+         <div class="btn">
             <button class="" id="aproveite">
-                <a href="https://bit.ly/3sMprKd" target="_blank">Aproveite!!</a>
+               <a href="https://bit.ly/3sMprKd" target="_blank">Aproveite!!</a>
             </button>
-        </div>
-
-        <p id="tempo">Não fique ai parado, o tempo é limitado!</p>
-        <button>
+         </div>
+         <p id="tempo">Não fique ai parado, o tempo é limitado!</p>
+         <button>
             <a href="https://bit.ly/3tyDlyt"></a>
-        </button>
-
-        <div id="spanRelogio">   
-        </div>
-
-        <picture>
+         </button>
+         <div id="spanRelogio"></div>
+         <picture>
             <source media="(max-width: 450px )" srcset="imagens/perfilp.png" type="image/png">
             <source media="(max-width: 650px )" srcset="imagens/perfilm.png" type="image/png">
             <source media="(max-width: 950px )" srcset="imagens/perfilg.png" type="image/png">
             <img src="imagens/perfilg.png" alt="Foto Thaina">
-        </picture>
-        
-        <p>Quer ganhar dinheiro sem sair de casa, assista o video onde eu te explico todos os detalhes de como você vai mudar sua realizadade financeira, transformar a sua vida e ter sucesso.</p>
-
-        VIDEO Thaina
-
-        <h2>Depoimentos:</h2>
-        <section id="depoimentos">
-
-        </section>
-
-        <p>Deseja receber um curso gratuito no e-mail?</p>
-        <form action="php/email.php" method="post">
-            <p>Nome: <input  class="campo" type="text" name="tnome" id="cnome" placeholder="Insira seu nome" maxlength="30" max="12" required></p>
-            <p>E-mail: <input class="campo" type="email" name="temail" id="cemail" placeholder="Insira seu melhor email" maxlength="40" max="12" required></p>
+         </picture>
+         <p>Quer ganhar dinheiro sem sair de casa, assista o video onde eu te explico todos os detalhes de como você vai mudar sua realizadade financeira, transformar a sua vida e ter sucesso.</p> VIDEO Thaina <h2>Depoimentos:</h2>
+         <section id="depoimentos"></section>
+         <p>Deseja receber um curso gratuito no e-mail?</p>
+         <form action="php/email.php" method="post">
+            <p>Nome: <input class="campo" type="text" name="tnome" id="cnome" placeholder="Insira seu nome" maxlength="30" max="12" required>
+            </p>
+            <p>E-mail: <input class="campo" type="email" name="temail" id="cemail" placeholder="Insira seu melhor email" maxlength="40" max="12" required>
+            </p>
             <input type="submit" value="EU QUERO!!">
-        </form>
-        <div>
+         </form>
+         <div>
             <iframe src="https://www.youtube.com/embed/UpfDHIeF7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <p>Não perca esta oportunidade! Tire suas duvidas pelo meu Whatsapp</p>
-        
-        <button id="whats"><a href="https://bit.ly/3INSsdM" target="_blank">WHATSAPP</button></a>
-        
-        <p>Não perca esta chnace! Adquira já seu treinamento!</p>
-    
-            <button id="perca"><a href="https://bit.ly/3tyDlyt" target="_blank">NÃO PERCA!</button></a>
-
-            <a id="flutuante" href="https://bit.ly/3INSsdM" target="_blank";><i style="margin-top:16px" class="fa fa-whatsapp"></i></a>
-    </main>
-    <footer><p>Thaina Dutra Reis - Copyright 2022</p></footer>
-</body>
+         </div>
+         <p>Não perca esta oportunidade! Tire suas duvidas pelo meu Whatsapp</p>
+         <button id="whats">
+            <a href="https://bit.ly/3INSsdM" target="_blank">WHATSAPP </button>
+         </a>
+         <p>Não perca esta chnace! Adquira já seu treinamento!</p>
+         <button id="perca">
+            <a href="https://bit.ly/3tyDlyt" target="_blank">NÃO PERCA! </button>
+         </a>
+         <a id="flutuante" href="https://bit.ly/3INSsdM" target="_blank" ;>
+            <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+         </a>
+      </main>
+      <footer>
+         <p>Thaina Dutra Reis - Copyright 2022</p>
+      </footer>
+   </body>
 </html>
