@@ -71,7 +71,7 @@ picture, picture > img{
     display: block;
     margin: 10px auto 5px auto;
     width: 90%;
-    height: 600px;
+    height: auto;
 }
 form{
     display: block;
@@ -136,15 +136,15 @@ button#perca{
     }
 a#flutuante{
     position:fixed;
-    width:60px;
-    height:60px;
+    width:50px;
+    height:50px;
     bottom:40px;
-    right:40px;
+    right:30px;
     background-color:#25d366;
     color:#FFF;
     border-radius:50px;
     text-align:center;
-    font-size:30px;
+    font-size:20px;
     box-shadow: 1px 1px 2px #888;
     z-index:1350;
 }
