@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap');
 :root {
 	--font1: Arial, Helvetica, sans-serif;
@@ -12,7 +14,7 @@
 * {
 	margin: auto;
 	padding: 0px;
-	font-family: var(--font1);
+	font-family: var(--font2);
 	font-weight: bolder;
 }
 
@@ -44,7 +46,7 @@ main {
 }
 
 main>p {
-	font-size: 1.5em;
+	font-size: 2em;
 	padding: 2px auto 2px auto;
 	text-align: center;
 	margin: 2px auto 2px auto;
@@ -52,8 +54,9 @@ main>p {
 }
 
 p#headline {
+	width: 95%;
     padding: 5px auto 5px auto;
-    margin-top: 5px;
+	margin: 5px auto;
 	display: block;
 	text-align: justify;
 	font-size: 1.8em;
@@ -101,18 +104,17 @@ div#spanRelogio {
 	background-color: var(--cor2);
 	color: white;
 	height: 70px;
-	width: 85%;
+	width: 75%;
 	margin: 0px auto 0px auto;
 	padding: 1px;
 	font-size: 3em;
 	text-align: center;
 	border-radius: 10px;
 }
-picture,
-picture>img {
+picture,picture>img {
 	display: block;
 	margin: 10px auto 5px auto;
-	width: 90%;
+	width: 70%;
 	height: auto;
 }
 #formulario {
@@ -135,19 +137,22 @@ picture>img {
 	margin: auto;
 }
 div#imagens{
-	display: block;
+	display: inline-block;
 	background-color: var(--cor1);
 	margin: auto;
+	width: 100%;
+	background-color: aqua;
 }
 .galeria{
 	display: block;
+	background-color: #25d366;
 	margin: auto;
 	padding: 5px 5px 5px 50px;
-	width: 75%;
+	width: 80%;
 	background-color: var(--cor1);
 
 }
-.galeria>ul{
+.galeria ul{
 	background-color: #000;
 	display: inline-block;
 	margin: auto;
@@ -169,11 +174,11 @@ div#imagens{
   	margin: 0px auto;
 }
 .galeria img{
+	background-color: aqua;
 	width: auto;
 	margin: auto;	
 }
-form,
-#formulario {
+form,#formulario {
 	position: relative;
 	display: block;
 	margin: 0 auto;
@@ -217,6 +222,7 @@ div>iframe {
 	border-radius: 20px;
 	box-shadow: 2px 1px 1px black;
 }
+
 a#flutuante {
 	position: fixed;
 	width: 50px;
@@ -230,6 +236,18 @@ a#flutuante {
 	font-size: 20px;
 	box-shadow: 1px 1px 2px #888;
 	z-index: 1350;
+}
+button#compra{
+  animation: createBox .25s;
+  min-width: 90% ;
+}
+@keyframes createBox {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 footer {
 	display: block;
