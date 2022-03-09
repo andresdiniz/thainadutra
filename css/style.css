@@ -134,22 +134,26 @@ picture>img {
 #depoimentos{
 	margin: auto;
 }
+div#imagens{
+	background-color: var(--cor1);
+}
 .galeria{
 	margin: auto;
 	padding: 5px 5px 5px 50px;
-	width: 100%;
+	width: 75%;
+	background-color: var(--cor1);
+
 }
 .galeria>ul{
+	background-color: #000;
 	display: inline-block;
-	align-content: center;
-	margin: 0px;
-	padding: 5px;
-	max-width: auto;
-	max-height: 50%;
+	margin: 5px auto;
+	padding: 2px;
+	width: auto;
+	max-height: auto;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
-	list-style: none;
 
 }
 .galeria>ul:hover{
@@ -162,7 +166,7 @@ picture>img {
   	margin: 0px auto;
 }
 .galeria img{
-	max-width: 99%;
+	width: auto;
 	margin: auto;	
 }
 form,
