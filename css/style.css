@@ -96,6 +96,7 @@ p#tempo {
 	text-align: center;
 }
 div#spanRelogio {
+    var(--font2);
 	background-color: var(--cor2);
 	color: white;
 	height: 70px;
@@ -122,6 +123,25 @@ picture>img {
 	padding: 5px;
 	margin: auto;
 }
+#depoimentos >h2{
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 2em;
+    font-family: var(--font2);
+}
+#depoimentos{
+	margin: auto;
+	width: 30%;
+	height: 20%;
+	background-color: #888;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+}
+
+
+
 form,
 #formulario {
 	position: relative;
