@@ -132,12 +132,28 @@ picture>img {
 }
 #depoimentos{
 	margin: auto;
-	width: 30%;
-	height: 20%;
+}
+.galeria{
+	width: 80%;
+	margin: auto;
+	background-color: #000;
+	padding: 2px;
+	width: 100%;
+}
+.galeria>ul{
+	display: inline-table;
+	margin: 5px auto 5px auto;
+	padding: 10px;
 	background-color: #888;
+	max-width: 30%;
+	min-width: 350px;
+	max-height: 350%;
+	min-width: 300px;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
+	list-style: none;
+
 }
 
 
