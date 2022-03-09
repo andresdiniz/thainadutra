@@ -22,4 +22,3 @@ var hr ,min, seg,mins,segs;	hr=01;	min = 02;		seg = 1
 		}
 	return mins,segs;
     }
-

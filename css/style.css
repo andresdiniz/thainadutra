@@ -239,7 +239,8 @@ a#flutuante {
 }
 button#compra{
   animation: createBox .25s;
-  min-width: 90% ;
+  min-width: 75%;
+  max-width: 800px;
 }
 @keyframes createBox {
   from {
