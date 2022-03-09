@@ -141,19 +141,25 @@ picture>img {
 	width: 100%;
 }
 .galeria>ul{
-	display: inline-table;
+	display: inline-block;
 	margin: 5px auto 5px auto;
 	padding: 10px;
 	background-color: #888;
 	max-width: 30%;
-	min-width: 350px;
-	max-height: 350%;
-	min-width: 300px;
+	max-height: 31%;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
 	list-style: none;
 
+}
+.galeria>ul:hover{
+	padding: 20px;
+  	background-color: #888;
+  	transition: transform .3s; /* Animation */
+  	width: auto;
+  	height: auto;
+  	margin: 0 auto;
 }
 
 
