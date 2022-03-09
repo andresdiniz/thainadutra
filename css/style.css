@@ -140,10 +140,10 @@ picture>img {
 }
 .galeria>ul{
 	display: inline-block;
-	margin: 7px auto 7px auto;
-	padding: 10px;
-	max-width: 30%;
-	max-height: 31%;
+	margin: auto;
+	padding: 5px;
+	max-width: 20%;
+	max-height: 30%;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
@@ -151,14 +151,18 @@ picture>img {
 
 }
 .galeria>ul:hover{
-	width: 100%;
+	width: 110%;
 	display: inline-block;
 	padding: 15px;
   	background-color: #888;
   	transition: transform .3s; /* Animation */
   	width: auto;
   	height: auto;
-  	margin: -5px auto;
+  	margin: 0px auto;
+}
+.galeria img{
+	max-width: 95%;
+	margin: auto;
 }
 
 
