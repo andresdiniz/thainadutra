@@ -133,20 +133,15 @@ picture>img {
 #depoimentos{
 	margin: auto;
 }
-div#imagens{
-	width: 80%;
-}
 .galeria{
 	margin: auto;
-	background-color: #000;
-	padding: 2px;
-	width: 100%;
+	padding: 5px 0px 5px 20px;
+	width: 98.5%;
 }
 .galeria>ul{
 	display: inline-block;
-	margin: 5px auto 5px auto;
+	margin: 7px auto 7px auto;
 	padding: 10px;
-	background-color: #888;
 	max-width: 30%;
 	max-height: 31%;
 	border: 1px solid black;
@@ -156,12 +151,14 @@ div#imagens{
 
 }
 .galeria>ul:hover{
-	padding: 20px;
+	width: 100%;
+	display: inline-block;
+	padding: 15px;
   	background-color: #888;
   	transition: transform .3s; /* Animation */
   	width: auto;
   	height: auto;
-  	margin: 0 auto;
+  	margin: -5px auto;
 }
 
 
