@@ -132,6 +132,7 @@ picture,picture>img {
 	margin: auto;
 }
 #depoimentos > h2{
+	display: block;
 	background-color: #25d366;
 	margin-top: 15px auto;
 	padding: 5px;
