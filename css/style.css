@@ -46,12 +46,14 @@ main {
 	text-align: justify;
 }
 
-main>p {
+main > p {
+	max-width: 99vw;
+	text-align: justify;
 	font-size: 2em;
 	padding: 2px auto 2px auto;
 	text-align: center;
 	margin: 2px auto 2px auto;
-    list-style: 1.5em;
+    list-style: 2em;
 }
 
 p#headline {
@@ -86,6 +88,7 @@ a {
 	font-size: 2em;
 	margin: -0px auto 0px auto;
 	border-radius: 5px;
+	border: 2px solid black;
 	box-shadow: 1px 1px 1px black;
 }
 
@@ -128,7 +131,10 @@ picture,picture>img {
 	padding: 5px;
 	margin: auto;
 }
-#depoimentos >h2{
+#depoimentos > h2{
+	background-color: #25d366;
+	margin-top: 15px auto;
+	padding: 5px;
     display: block;
     text-align: center;
     margin: auto;
@@ -137,6 +143,7 @@ picture,picture>img {
 }
 #depoimentos{
 	margin: auto;
+	width: 80%;
 }
 div#imagens{
 	display: inline-block;
@@ -150,21 +157,21 @@ div#imagens{
 	background-color: #25d366;
 	margin: auto;
 	padding: 5px 5px 5px 50px;
-	width: 80%;
+	width: 90%;
 	background-color: var(--cor1);
 
 }
 .galeria ul{
-	background-color: #000;
 	display: inline-block;
+	place-items: center;
+	background-color: #000;
 	margin: auto;
 	padding: 2px;
-	width: auto;
+	width: 20%;
 	max-height: auto;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
-
 }
 .galeria>ul:hover{
 	display: inline-block;
@@ -177,7 +184,7 @@ div#imagens{
 }
 .galeria img{
 	background-color: aqua;
-	width: auto;
+	width: 100%;
 	margin: auto;	
 }
 form,#formulario {
