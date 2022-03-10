@@ -230,6 +230,9 @@
         margin: auto;
         width: 90%;
     }
+    #depoimentos:hover{
+        width: 100%;
+    }
 
     .galeria{
         display: block;
@@ -258,7 +261,7 @@
         background-color: rgba(66, 49, 49, 0.897);
         transition: transform .3s; /* Animation */
         width: auto;
-        height: 150%;
+        height: 400px;
         margin: 0px auto;
     }
     .galeria img{
@@ -363,11 +366,11 @@
     }
     .galeria>ul:hover{
         display: block;
-        padding: 10px;
+        padding: 5px;
         background-color: rgba(66, 49, 49, 0.897);
         transition: transform .3s; /* Animation */
-        width: 350px;
-        height: 150%;
+        width: 550px;
+        height:100vh;
         margin: 0px auto;
     }
     .galeria img{
@@ -375,6 +378,12 @@
         width: 100%;
         margin: auto;	
     }
+         .galeria img:hover{
+        width: 100%;
+        height: 96%;
+        margin: auto;	
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -446,7 +455,7 @@
         width: 90%;
     }
     #depoimentos:hover{
-        width: 100%;
+        width: 98%;
     }
     .galeria{
         display: block;
@@ -472,15 +481,19 @@
     }
     .galeria>ul:hover{
         display: block;
-        padding: 10px;
+        padding: 5px;
         background-color: rgba(66, 49, 49, 0.897);
         transition: transform .3s; /* Animation */
         width: 350px;
-        height: 150%;
+        height: 95%;
         margin: 0px auto;
     }
     .galeria img{
-        background-color: aqua;
         width: 100%;
+        margin: auto;	
+    }
+     .galeria img:hover{
+        width: 100%;
+        height: 100%;
         margin: auto;	
     }

@@ -9,7 +9,6 @@ var hora,min, seg,mins,segs;	hora=01;	min = 00;		seg = 01;
 				seg = seg - 1;				
 			}	
 			if(hora > 0 && min == 0 && seg == 00){
-				setTimeout('relogio()', 1000);
 				hora = hora -1;
 				min = 59;
 				seg = 59;
