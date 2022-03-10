@@ -455,14 +455,15 @@
         width: 90%;
     }
     #depoimentos:hover{
-        width: 98%;
+        width: 95%;
+        margin: auto;
     }
     .galeria{
         display: block;
         background-color: #25d366;
         margin: auto;
         padding: 5px 5px 5px 50px;
-        width: 90%;
+        width: 80%;
         background-color: var(--cor1);
 
     }
@@ -473,7 +474,7 @@
         background-color: #000;
         margin: 10px auto;
         padding: 3px;
-        width: 90%;
+        width: 80%;
         max-height: auto;
         border: 1px solid black;
         border-radius: 10px;
@@ -482,6 +483,7 @@
     .galeria>ul:hover{
         display: block;
         padding: 5px;
+        margin: auto;
         background-color: rgba(66, 49, 49, 0.897);
         transition: transform .3s; /* Animation */
         width: 350px;
