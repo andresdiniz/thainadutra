@@ -371,8 +371,7 @@ footer{
         height:auto
     }
     #formulario{
-        max-width:350px;
-        min-width:250px;
+        max-width:80%;
         border:2px solid #000;
         border-radius:5px;
         padding:5px;
