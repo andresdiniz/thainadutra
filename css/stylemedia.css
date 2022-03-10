@@ -215,14 +215,14 @@ footer{
     }
     #depoimentos{
         margin:auto;
-        width:90%
+        width:98%
     }
     .galeria{
         display:block;
         background-color:#25d366;
         margin:auto;
-        padding:5px 5px 5px 50px;
-        width:95%;
+        padding:1px 1px 1px 50px;
+        width:98%;
         background-color:var(--cor1)
     }
     .galeria ul{
@@ -231,7 +231,7 @@ footer{
         background-color:#000;
         margin:auto;
         padding:3px;
-        width:23%;
+        width:18%;
         max-height:auto;
         border:1px solid #000;
         border-radius:10px;

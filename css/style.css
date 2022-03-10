@@ -168,23 +168,13 @@ div#imagens{
 	background-color: #000;
 	margin: auto;
 	padding: 2px;
-	width: 20%;
+	width: 15%;
 	max-height: auto;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 1px 1px 1px black;
 }
-.galeria>ul:hover{
-	display: inline-block;
-	padding: 15px;
-  	background-color: rgba(66, 49, 49, 0.897);
-  	transition: transform .3s; /* Animation */
-  	width: auto;
-  	height: 150%;
-  	margin: 0px auto;
-}
 .galeria img{
-	background-color: aqua;
 	width: 100%;
 	margin: auto;	
 }
