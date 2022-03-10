@@ -1,24 +1,33 @@
-var hr ,min, seg,mins,segs;	hr=01;	min = 02;		seg = 1		
+var hora,min, seg,mins,segs;	hora=01;	min = 00;		seg = 2;	
 	function relogio(){			
-		if((hr >0 || min > 0) || (seg > 0)){				
+		if((hora > 0 || min > 0) || (seg > 0)){				
 			if(seg == 0){					
 				seg = 59;					
-				min = min - 1	
-			}				
+				min = min - 1;
+					}
 			else{					
 				seg = seg - 1;				
-			}				
+			}	
+			if(hora > 0 && min == 0 && seg == 00){
+				setTimeout('relogio()', 1000);
+				hora = hora -1;
+				min = 59;
+				seg = 59;
+			}			
+			if(hora.toString().length == 1){					
+				hora = "0" + hora;				
+			}							
 			if(min.toString().length == 1){					
 				min = "0" + min;				
 			}				
 			if(seg.toString().length == 1){					
 				seg = "0" + seg;				
 			}				
-			document.getElementById('spanRelogio').innerHTML = min + ":" + seg;				
+			document.getElementById('spanRelogio').innerHTML = hora +":" + min + ":" + seg;				
 			setTimeout('relogio()', 1000);			
 		}			
 		else{				
-			document.getElementById('spanRelogio').innerHTML = "00:00";			
+			document.getElementById('spanRelogio').innerHTML = "00:00:00";			
 		}
 	return mins,segs;
     }
