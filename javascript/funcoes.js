@@ -1,4 +1,4 @@
-var hora,min, seg,mins,segs;	hora=01;	min = 00;		seg = 2;	
+var hora,min, seg,mins,segs;	hora=01;	min = 00;		seg = 01;	
 	function relogio(){			
 		if((hora > 0 || min > 0) || (seg > 0)){				
 			if(seg == 0){					
