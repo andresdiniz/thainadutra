@@ -5,8 +5,8 @@
 
 @font-face {
     font-family: 'Droid';
-    src: url('../fonts/trajan-pro.otf') format('opentype');
-    font-style: bolder;
+    src: url('fonts/trajan-pro.otf');
+    font-style: normal;
 }
 
 
@@ -88,7 +88,7 @@ div#spanRelogio{
     display:block;
     margin:0 auto;
     max-width:350px;
-    min-width:200px;
+    min-width:250px;
     padding:1em;
     border-radius:1em
 }
