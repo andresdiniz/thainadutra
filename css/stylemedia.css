@@ -377,7 +377,7 @@ footer{
         height:auto
     }
     #formulario{
-        max-width:85%;
+        max-width:75%;
         border:2px solid #000;
         border-radius:5px;
         padding:2px;
@@ -425,7 +425,7 @@ footer{
     form>input{
     display:block;
     position:relative;
-    max-width:210px;
+    max-width:200px;
     height:auto;
     background-color:var(--cor3);
     color:#000;
