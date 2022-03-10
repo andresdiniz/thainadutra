@@ -423,15 +423,15 @@ footer{
         margin:auto
     }
     form>input{
-    display:block;
-    position:relative;
-    width:200px;
-    height:auto;
-    background-color:var(--cor3);
-    color:#000;
-    padding:2px;
-    margin:auto;
-    text-align:center;
-    font-size:1em
-}
+        display:block;
+        position:relative;
+        width:200px;
+        height:auto;
+        background-color:var(--cor3);
+        color:#000;
+        padding:2px;
+        margin:auto;
+        text-align:center;
+        font-size:1em
+    }
 }
