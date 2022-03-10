@@ -163,7 +163,7 @@
         box-shadow: 2px 1px 1px black;
     }
 
-@media (min-width: 950px) {
+@media (min-width: 1050px) {
 
         header {
         font-family: var(--font2);
@@ -271,7 +271,7 @@
         margin: auto;	
     }
 }
-@media (min-width: 500px) and (max-width: 950px) {
+@media (min-width: 500px) and (max-width: 1050px) {
 
         header {
         font-family: var(--font2);
@@ -445,7 +445,9 @@
         margin: auto;
         width: 90%;
     }
-
+    #depoimentos:hover{
+        width: 100%;
+    }
     .galeria{
         display: block;
         background-color: #25d366;
