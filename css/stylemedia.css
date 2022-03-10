@@ -426,7 +426,6 @@ footer{
     display:block;
     position:relative;
     max-width:210px;
-    min-width:20%;
     height:auto;
     background-color:var(--cor3);
     color:#000;
