@@ -455,15 +455,16 @@
         width: 90%;
     }
     #depoimentos:hover{
-        width: 95%;
-        margin: auto;
+        width: 100%;
+        margin: auto auto auto -10px;
+
     }
     .galeria{
         display: block;
         background-color: #25d366;
         margin: auto;
         padding: 5px 5px 5px 50px;
-        width: 80%;
+        width: 90%;
         background-color: var(--cor1);
 
     }
@@ -474,7 +475,7 @@
         background-color: #000;
         margin: 10px auto;
         padding: 3px;
-        width: 80%;
+        width: 75%;
         max-height: auto;
         border: 1px solid black;
         border-radius: 10px;
@@ -486,9 +487,9 @@
         margin: auto;
         background-color: rgba(66, 49, 49, 0.897);
         transition: transform .3s; /* Animation */
-        width: 350px;
+        width: 300px;
         height: 95%;
-        margin: 0px auto;
+        margin: auto;
     }
     .galeria img{
         width: 100%;
