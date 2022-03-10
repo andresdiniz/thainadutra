@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
-500;
-700&display=swap);
 
 @font-face {
     font-family: 'Droid';
@@ -9,6 +6,9 @@
     font-style: normal;
 }
 
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
+500;
+700&display=swap);
 
 :root{
     --font1:Arial,Helvetica,sans-serif;
@@ -29,11 +29,23 @@
 body,html{
     min-height:100vh
 }
+header{
+        font-family:var(--font4);
+        background-image:linear-gradient(to top,var(--cor1),var(--cor2));
+        text-align:center;
+        font-family: var(--font4);
+}
 a{
     text-decoration:none;
     text-align:center;
     color:#fff
 }
+p#headline{
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:justify;
+    }
 .btn{
     display:block;
     min-width:30%;
@@ -167,12 +179,8 @@ footer{
 }
 @media (min-width:1050px){
     header{
-        background-image:linear-gradient(to top,var(--cor1),var(--cor2));
-        padding:5px;
         min-height:50px;
-        text-align:center;
         font-size:1em;
-        font-family:var(--font4)
     }
     main>p{
         max-width:99vw;
@@ -185,10 +193,6 @@ footer{
     }
     p#headline{
         width:95%;
-        padding:5px auto 5px auto;
-        margin:5px auto;
-        display:block;
-        text-align:justify;
         font-size:1.3em
     }
     p#tempo{
@@ -252,12 +256,8 @@ footer{
     }
 }
 @media (min-width:500px) and (max-width:1050px){
-    header{
-        font-family:var(--font4);
-        background-image:linear-gradient(to top,var(--cor1),var(--cor2));
         padding:5px;
-        min-height:50px;
-        text-align:center;
+        min-height:50px
         font-size:1em;
     }
     main>p{
@@ -377,10 +377,10 @@ footer{
         height:auto
     }
     #formulario{
-        max-width:80%;
+        max-width:85%;
         border:2px solid #000;
         border-radius:5px;
-        padding:5px;
+        padding:2px;
         margin:auto
     }
     #depoimentos>h2{
