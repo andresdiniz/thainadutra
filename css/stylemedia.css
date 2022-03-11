@@ -38,7 +38,8 @@ header{
 a{
     text-decoration:none;
     text-align:center;
-    color:#fff
+    color:#fff;
+    max-width: 95%;
 }
 p#headline{
         padding:5px auto 5px auto;
@@ -48,8 +49,7 @@ p#headline{
     }
 .btn{
     display:block;
-    min-width:30%;
-    max-width:500px;
+    max-width:60%;
     height:auto;
     color:#fff;
     padding:5px 10px;
@@ -70,6 +70,9 @@ p#headline{
     background:#579e57;
     color:#000;
     zoom:normal
+}
+.campo{
+    max-width: 50%;
 }
 main{
     margin:0 auto 5px auto;
@@ -105,7 +108,7 @@ div#spanRelogio{
 }
 label{
     display:inline-block;
-    width:85%;
+    width:40%;
     text-align:right
 }
 label:focus{
@@ -338,7 +341,7 @@ footer{
         margin:auto
     }
 }
-@media screen and (max-width:500px){
+@media ((min-width:370px)) and (max-width:500px){
     header{
         font-family:var(--font4);
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
@@ -346,6 +349,11 @@ footer{
         min-height:50px;
         text-align:center;
         font-size:1em;
+    }
+    .btn{
+        font-size: 0.2em;
+        max-width: 100%;
+        display: block;
     }
     main>p{
         max-width:99vw;
@@ -433,5 +441,107 @@ footer{
         margin:auto;
         text-align:center;
         font-size:1em
+    }
+}
+@media screen and (max-width:370px){
+        header{
+        font-family:var(--font4);
+        background-image:linear-gradient(to top,var(--cor1),var(--cor2));
+        padding:5px;
+        min-height:50px;
+        text-align:center;
+        font-size:0.8em;
+    }
+    .btn{
+        font-size: 0.1em;
+        max-width: 100%;
+        display: block;
+    }
+    main>p{
+        max-width:99vw;
+        text-align:justify;
+        font-size:.8em;
+        padding:2px auto 2px auto;
+        text-align:center;
+        margin:2px auto 2px auto;
+        list-style:1em
+    }
+    p#headline{
+        width:95%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:justify;
+        font-size:0.7em
+    }
+    p#tempo{
+        display:block;
+        font-size:1em;
+        text-shadow:1px 1px 1px #000;
+        text-align:center
+    }
+    picture,picture>img{
+        display:block;
+        margin:10px auto 5px auto;
+        width:90%;
+        height:auto
+    }
+    #formulario{
+        max-width:75%;
+        border:2px solid #000;
+        border-radius:5px;
+        padding:1px;
+        margin:auto;
+    }
+    #depoimentos>h2{
+        display:block;
+        margin-top:15px auto;
+        padding:5px;
+        display:block;
+        text-align:center;
+        margin:auto;
+        font-size:2em;
+        font-family:var(--font2)
+    }
+    #depoimentos{
+        margin:auto;
+        width:90%
+    }
+    .galeria{
+        display:block;
+        background-color:#25d366;
+        margin:auto;
+        padding:5px 5px 5px 50px;
+        width:90%;
+        background-color:var(--cor1)
+    }
+    .galeria ul{
+        display:inline-block;
+        margin:auto;
+        place-items:center;
+        background-color:#000;
+        margin:10px auto;
+        padding:3px;
+        max-width:75%;
+        max-height:auto;
+        border:1px solid #000;
+        border-radius:10px;
+        box-shadow:1px 1px 1px #000
+    }
+    .galeria img{
+        width:90%;
+        margin:auto
+    }
+    form>input{
+        display:block;
+        position:relative;
+        max-width:200px;
+        height:auto;
+        background-color:var(--cor3);
+        color:#000;
+        padding:2px;
+        margin:auto;
+        text-align:center;
+        font-size:0.5em
     }
 }
