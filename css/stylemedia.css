@@ -9,7 +9,6 @@
     font-style: bolder;
 }
 
-
 :root{
     --font1:Arial,Helvetica,sans-serif;
     --font2:'Open Sans',sans-serif;
@@ -59,6 +58,7 @@ a{
     color:#000;
     zoom:normal
 }
+
 main{
     margin:0 auto 5px auto;
     background-color:var(--cor1);
@@ -155,16 +155,32 @@ button#compra{
     }
 }
 footer{
-    display:block;
     clear:both;
+    width: auto;
+    display:block;
     margin-top:3px;
-    background-color:rgba(0,0,0,.589);
+    background-color:rgba(0, 0, 0, 0.733);
     height:auto;
     text-align:center;
-    padding:auto;
-    font-size:1em;
+    padding:5px;
+    font-size:1.5em;
     box-shadow:2px 1px 1px #000
 }
+footer.redes {
+    background-attachment: fixed;
+    position: absolute;
+    float: right;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    float: right;
+    background-color: rgba(2, 7, 7, 0.185);
+    width: 100px;
+    height: auto;
+    font-size: 1em;
+    color: rgb(65, 60, 60);
+}
+
 @media (min-width:1050px){
     header{
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
