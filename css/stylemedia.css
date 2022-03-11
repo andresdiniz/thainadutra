@@ -75,7 +75,6 @@ main{
     margin:0 auto 5px auto;
     background-color:var(--cor1);
     max-width:99vw;
-    min-width:300px;
     box-shadow:4px 2px 2px #000;
     border-radius:0 0 6px 6px;
     padding:5px;
@@ -100,13 +99,13 @@ div#spanRelogio{
     display:block;
     margin:0 auto;
     max-width:350px;
-    min-width:250px;
+    min-width:200px;
     padding:1em;
     border-radius:1em
 }
 label{
     display:inline-block;
-    width:90px;
+    width:85%;
     text-align:right
 }
 label:focus{
@@ -116,7 +115,7 @@ form>input{
     display:block;
     position:relative;
     max-width:250px;
-    min-width:25%;
+    min-width:20%;
     height:auto;
     background-color:var(--cor3);
     color:#000;
@@ -290,8 +289,9 @@ footer{
         height:auto
     }
     #formulario{
-        max-width:450px;
-        min-width:400px;
+        position: relative;
+        display: block;
+        max-width:80%;
         border:2px solid #000;
         border-radius:5px;
         padding:5px;
