@@ -191,7 +191,7 @@ label {
 	/*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
 	
 	display: inline-block;
-	width: 90px;
+	width: 20%;
 	text-align: right;
 }
 label:focus {
