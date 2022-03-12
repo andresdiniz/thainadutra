@@ -393,7 +393,7 @@ footer.redes {
         height:auto
     }
     #formulario{
-        max-width:80%;
+        max-width:90%;
         border:2px solid #000;
         border-radius:5px;
         padding:5px;
@@ -438,4 +438,8 @@ footer.redes {
         width:100%;
         margin:auto
     }
+    label{
+    width:50px;
+    text-align:right
+}
 }
