@@ -190,11 +190,11 @@ footer.redes {
     color: rgb(65, 60, 60);
 }
 .sociais{
+  position: absolute;
   float: right;
   display: inline-block;
   width: 20%;
-  background-color: var(--cor3);
-  
+  background-color: black;
 }
 @media (min-width:1050px){
     header{
