@@ -12,7 +12,7 @@
     <?php
     include ('conecta.php');
     $nome = $_POST["tnome"];
-    $email = $_POST["temail"]
+    $email = $_POST["temail"];
     
     $timezone = new DateTimeZone("America/Sao_Paulo");
     $agora = new DateTime('now', $timezone);
