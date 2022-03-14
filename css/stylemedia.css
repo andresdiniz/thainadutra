@@ -197,8 +197,130 @@ span.sociais{
     display: block;
     width: auto;
 }
-
 @media (min-width:1050px){
+    header{
+        background-image:linear-gradient(to top,var(--cor1),var(--cor2));
+        padding:5px;
+        min-height:50px;
+        text-align:center;
+        font-size:1em;
+        font-family:var(--font4)
+    }
+    main>p{
+        max-width:75vw;
+        text-align:justify;
+        font-size:1em;
+        padding:2px auto 2px auto;
+        text-align:center;
+        margin:2px auto 2px auto;
+        list-style:2em
+    }
+    p#headline{
+        width:95%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:justify;
+        font-size:1.3em
+    }
+    p#tempo{
+        display:block;
+        font-size:1.7em;
+        text-shadow:1px 1px 1px #000;
+        text-align:center
+    }
+    picture,picture>img{
+        display:block;
+        margin:10px auto 5px auto;
+        width:80%;
+        height:auto
+    }
+    #formulario{
+        max-width:450px;
+        min-width:400px;
+        border:2px solid #000;
+        border-radius:5px;
+        padding:5px;
+        margin:auto
+    }
+    #depoimentos>h2{
+        display:block;
+        margin-top:15px auto;
+        padding:5px;
+        display:block;
+        text-align:center;
+        margin:auto;
+        font-size:3em;
+        font-family:var(--font2)
+    }
+    #depoimentos{
+        margin:auto;
+        width:98%
+    }
+    .galeria{
+        display:block;
+        background-color:#25d366;
+        margin:auto;
+        padding:1px 1px 1px 45px;
+        width:97%;
+        background-color:var(--cor1)
+    }
+    .galeria ul{
+        display:inline-block;
+        place-items:center;
+        background-color:#000;
+        margin:auto;
+        padding:3px;
+        width:23%;
+        max-height:auto;
+        border:1px solid #000;
+        border-radius:10px;
+        box-shadow:1px 1px 1px #000
+    }
+    .galeria img{
+        display:inline-block;
+        width:100%;
+        margin:auto
+    }
+    footer{
+        clear:both;
+        width: auto;
+        margin-top:3px;
+        background-color:rgba(0, 0, 0, 0.733);
+        height:50px;
+        text-align:left;
+        padding:5px;
+        font-size:1.0em;
+        box-shadow:2px 1px 1px #000
+    }
+    footer p{
+        margin: 5px auto;
+        width: 100%;
+        text-align: center;
+        display: block;
+        background-color:  rgb(65, 60, 60);
+        font-size: 2em;
+    }
+    footer.redes {
+        float: right;
+        margin: 2px 2px 2px 2px;
+        padding: 2px 2px 2px 2px;
+        display: block;
+        background-color: rgba(2, 7, 7, 0.185);
+        width: 100px;
+        height: auto;
+        font-size: 3em;
+        color: rgb(65, 60, 60);
+    }
+    span.sociais{
+        margin: 0px 15px 0px 0px;
+        text-align: right;
+        float: right;
+        display: block;
+        width: auto;
+    }
+}
+@media (min-width:1051px){
     header{
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
         padding:5px;
