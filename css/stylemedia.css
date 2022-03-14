@@ -156,6 +156,8 @@ button#compra{
 }
 form p{
   text-align: center;
+  margin: auto;
+  padding: 1px;
 }
 footer{
     clear:both;
