@@ -178,8 +178,6 @@ footer p{
   
 }
 footer.redes {
-    background-attachment: fixed;
-    position: absolute;
     float: right;
     margin: 2px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
