@@ -164,18 +164,19 @@ footer{
     width: auto;
     margin-top:3px;
     background-color:rgba(0, 0, 0, 0.733);
-    height:auto;
+    height:50px;
     text-align:left;
     padding:5px;
     font-size:1.2em;
     box-shadow:2px 1px 1px #000
 }
 footer p{
-  width: 100%;
-  text-align: center;
-  display: block;
-  background-color:  rgb(65, 60, 60);
-  font-size: 1em;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color:  rgb(65, 60, 60);
+    font-size: 2em;
 }
 footer.redes {
     float: right;
