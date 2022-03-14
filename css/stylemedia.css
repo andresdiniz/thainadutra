@@ -185,7 +185,11 @@ footer.redes {
     font-size: 1em;
     color: rgb(65, 60, 60);
 }
-
+.sociais{
+  float: right;
+  display: inline-block;
+  width: 10%;
+}
 @media (min-width:1050px){
     header{
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
