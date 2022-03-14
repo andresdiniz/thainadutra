@@ -166,9 +166,9 @@ footer{
     margin-top:3px;
     background-color:rgba(0, 0, 0, 0.733);
     height:auto;
-    text-align:center;
+    text-align:left;
     padding:5px;
-    font-size:1.5em;
+    font-size:1.2em;
     box-shadow:2px 1px 1px #000
 }
 footer p{
