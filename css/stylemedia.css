@@ -162,7 +162,6 @@ form p{
 footer{
     clear:both;
     width: auto;
-    display:block;
     margin-top:3px;
     background-color:rgba(0, 0, 0, 0.733);
     height:auto;
@@ -172,30 +171,31 @@ footer{
     box-shadow:2px 1px 1px #000
 }
 footer p{
-  width: 50%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
   display: block;
-  
+  background-color:  rgb(65, 60, 60);
+  font-size: 1em;
 }
 footer.redes {
     float: right;
     margin: 2px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
     display: block;
-    float: right;
     background-color: rgba(2, 7, 7, 0.185);
     width: 100px;
     height: auto;
-    font-size: 1em;
+    font-size: 3em;
     color: rgb(65, 60, 60);
 }
-.sociais{
-  position: absolute;
-  float: right;
-  display: inline-block;
-  width: 20%;
-  background-color: black;
+span.sociais{
+    margin: 0px 15px 0px 0px;
+    text-align: right;
+    float: right;
+    display: block;
+    width: auto;
 }
+
 @media (min-width:1050px){
     header{
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
