@@ -168,7 +168,8 @@ footer{
     text-align:left;
     padding:5px;
     font-size:1.2em;
-    box-shadow:2px 1px 1px #000
+    box-shadow:2px 1px 1px #000;
+    border-radius: 5px 5px 0px 0px;
 }
 footer p{
     margin: auto;
@@ -282,8 +283,45 @@ span.sociais{
         width:100%;
         margin:auto
     }
+    footer{
+        clear:both;
+        width: auto;
+        margin-top:3px;
+        background-color:rgba(0, 0, 0, 0.733);
+        height:50px;
+        text-align:left;
+        padding:5px;
+        font-size:1.0em;
+        box-shadow:2px 1px 1px #000
+    }
+    footer p{
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        display: block;
+        background-color:  rgb(65, 60, 60);
+        font-size: 1.2em;
+    }
+    footer.redes {
+        float: right;
+        margin: 2px 2px 2px 2px;
+        padding: 2px 2px 2px 2px;
+        display: block;
+        background-color: rgba(2, 7, 7, 0.185);
+        width: 100px;
+        height: auto;
+        font-size: 3em;
+        color: rgb(65, 60, 60);
+    }
+    span.sociais{
+        margin: 0px 15px 0px 0px;
+        text-align: right;
+        float: right;
+        display: block;
+        width: auto;
+    }
 }
-@media (min-width:500px) and (max-width:1050px){
+@media (min-width:750px) and (max-width:1050px){
     header{
         font-family:var(--font4);
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
@@ -369,8 +407,45 @@ span.sociais{
         width:100%;
         margin:auto
     }
+    footer{
+    clear:both;
+    width: auto;
+    margin-top:3px;
+    background-color:rgba(0, 0, 0, 0.733);
+    height:30px;
+    text-align:left;
+    padding:5px;
+    font-size:1.2em;
+    box-shadow:2px 1px 1px #000
 }
-@media screen and (max-width:500px){
+footer p{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color:  rgb(65, 60, 60);
+    font-size: 1.2em;
+}
+footer.redes {
+    float: right;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    background-color: rgba(2, 7, 7, 0.185);
+    width: 100px;
+    height: auto;
+    font-size: 1.2em;
+    color: rgb(65, 60, 60);
+}
+span.sociais{
+    margin: 0px 15px 0px 0px;
+    text-align: right;
+    float: right;
+    display: block;
+    width: auto;
+}
+}
+@media screen and (max-width:750px){
     header{
         font-family:var(--font4);
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
@@ -457,5 +532,42 @@ span.sociais{
     label{
     width:65px;
     text-align:right
+    }
+    footer{
+    clear:both;
+    width: auto;
+    margin-top:3px;
+    background-color:rgba(0, 0, 0, 0.733);
+    height:25px;
+    text-align:left;
+    padding:5px;
+    font-size:0.8em;
+    box-shadow:2px 1px 1px #000
+}
+footer p{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color:  rgb(65, 60, 60);
+    font-size: 1em;
+}
+footer.redes {
+    float: right;
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    display: block;
+    background-color: rgba(2, 7, 7, 0.185);
+    width: 100px;
+    height: auto;
+    font-size: 3em;
+    color: rgb(65, 60, 60);
+}
+span.sociais{
+    margin: 0px 15px 0px 0px;
+    text-align: right;
+    float: right;
+    display: block;
+    width: auto;
 }
 }
