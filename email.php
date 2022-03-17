@@ -20,7 +20,6 @@
     
     if ($conn->query($sql) === TRUE) {
       include('check.html');
-      include('sendemail.php');
         // echo "Olá $nome, muito bem em breve você recebera seu ebook gratuitamente no seu email.$result</br>";
         ini_set('display_errors',1);
         error_reporting( E_ALL );
