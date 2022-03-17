@@ -22,6 +22,15 @@
       include('check.html');
       include('sendemail.php');
         // echo "Olá $nome, muito bem em breve você recebera seu ebook gratuitamente no seu email.$result</br>";
+        ini_set('display_errors',1);
+        error_reporting( E_ALL );
+        $from ="sac@thainadutra.com.br";
+        $to = $email;
+        $subject = "Curso gratuito";
+        $message = message.html;
+        $headers = "From:" . $from;
+        mail($to,$subject,$message,$headers);
+        echo "Email enviado corretamente";
       } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
       }
