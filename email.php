@@ -18,8 +18,6 @@
     $agora = new DateTime('now', $timezone);
     $result = $agora->format("d-m-Y");
 
-    /*echo "Olá $nome, muito bem vindo ao Cebrac, você se cadastrou para o curso de $curso. Aguarde o nosso contato!</br>";
-    */
     $texto = Nome: $nome</br> Email: $email;
     echo $texto;
     $sql = "INSERT INTO leads (ID, Nome, Email) VALUES (NULL, '$nome','$email')";
