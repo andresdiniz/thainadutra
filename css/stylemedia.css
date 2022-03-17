@@ -245,6 +245,14 @@ span.sociais{
         text-align:justify;
         font-size:1.3em
     }
+    p#headline-grat{
+        width: 80%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:center;
+        font-size:1.5em
+    }
     p#tempo{
         display:block;
         font-size:1.7em;
@@ -366,7 +374,15 @@ span.sociais{
         margin:5px auto;
         display:block;
         text-align:justify;
-        font-size:2em
+        font-size:2em;
+    }
+    p#headline-grat{
+        width: 80%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:center;
+        font-size:1.5em;
     }
     p#tempo{
         display:block;
@@ -489,7 +505,15 @@ span.sociais{
         margin:5px auto;
         display:block;
         text-align:justify;
-        font-size:2em
+        font-size:2em;
+    }
+    p#headline-grat{
+        width: 80%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:center;
+        font-size:1em
     }
     p#tempo{
         display:block;
@@ -613,6 +637,14 @@ span.sociais{
         display:block;
         text-align:justify;
         font-size:1.2em
+    }
+    p#headline-grat{
+        width: 80%;
+        padding:5px auto 5px auto;
+        margin:5px auto;
+        display:block;
+        text-align:center;
+        font-size:0.8em
     }
     p#tempo{
         display:block;
