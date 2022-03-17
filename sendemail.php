@@ -1,11 +1,11 @@
 <?php
 ini_set('display_errors',1);
 error_reporting( E_ALL );
-$from ="test@hostinger-tutorials.com";
-$to = "andresoaresdiniz201218@gmail.com";
-$subject = "Checking PHP mail";
-$message = "PHP mail works just fine";
+$from ="sac@thainadutra.com.br";
+$to = $email;
+$subject = "Curso gratuito";
+$message = message.html;
 $headers = "From:" . $from;
 mail($to,$subject,$message,$headers);
-echo "The email message was sent.";
+echo "Email enviado corretamente"
 ?>
