@@ -24,7 +24,7 @@
     
     if ($conn->query($sql) === TRUE) {
       include('check.html');
-      include('sendemail.php')
+      include('sendemail.php');
         // echo "Olá $nome, muito bem em breve você recebera seu ebook gratuitamente no seu email.$result</br>";
       } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
