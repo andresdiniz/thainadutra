@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";/*"Mysql#.000webhost.com"; /* LETRA INICIAL MAUIUSCULA*/
-    $username = "id17543421_cebracadm"; /*"id17543421_admandre";*/
-    $password = "3Ml*@~LC83-5Rrz@"; /*jJ7AKrr&gLwm_%cd*/
-    $banco = "id17543421_cebrac";
+    $username = "u335174317_thainadutra"; /*"id17543421_admandre";*/
+    $password = "30012022@ndrE"; /*jJ7AKrr&gLwm_%cd*/
+    $banco = "u335174317_leads";
     
     // Create connection
     $conn = new mysqli($servername, $username, $password,$banco);

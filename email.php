@@ -18,9 +18,9 @@
     $agora = new DateTime('now', $timezone);
     $result = $agora->format("d-m-Y");
 
-    $texto = Nome: $nome</br> Email: $email;
-    echo $texto;
-    $sql = "INSERT INTO leads (ID, Nome, Email) VALUES (NULL, '$nome','$email')";
+    // $texto = Nome: $nome</br> Email: $email;
+    // echo $texto;
+    $sql = "INSERT INTO leads (ID, Nome, Email, Data) VALUES (NULL, '$nome','$email',$result)";
     
     if ($conn->query($sql) === TRUE) {
         echo "Olá $nome, muito bem em breve voce recebera seu ebook gratuitamente no seu email</br>";
