@@ -146,6 +146,22 @@ button#compra{
     min-width:75%;
     max-width:800px
 }
+
+a#flutuante>div{
+    visibility: hidden;
+}
+a#flutuante:hover>div{
+    visibility: visible;
+    background-color: var(--cor3);
+    position: absolute;
+    padding: 3px;
+    z-index:1350;
+    width:120px;
+    height:auto;
+    bottom:0px;
+    right:55px;
+}
+
 @keyframes createBox{
     from{
         transform:scale(0)

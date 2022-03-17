@@ -1,4 +1,5 @@
 var hora,min, seg,mins,segs;	hora = 0;	min = 15;		seg = 01;	
+let mensagem = document.querySelector(".mensagem") ;
 	function relogio(){			
 		if((hora > 0 || min > 0) || (seg > 0)){				
 			if(seg == 0){					
@@ -30,3 +31,12 @@ var hora,min, seg,mins,segs;	hora = 0;	min = 15;		seg = 01;
 		}
 	return mins,segs;
     }
+
+// mostra a mensagem
+	function showMessage(){   
+   		mensagem.style.display = "block";   
+ 	}
+// esconde a mensagem
+	function hideMessage(){
+  		mensagem.style.display = "none"; 
+	}
