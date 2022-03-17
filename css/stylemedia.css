@@ -160,6 +160,9 @@ a#flutuante:hover>div{
     height:auto;
     bottom:0px;
     right:55px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 1px 1px solid;
 }
 
 @keyframes createBox{
