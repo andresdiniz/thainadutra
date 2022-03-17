@@ -5,10 +5,6 @@
     <title>Fabrica de Riqueza </title>
     <link rel="stylesheet" href="_css/estilo.css">
 </head>
-<body>
-    <header>
-         <h1><strong>Fabrica de Riqueza</strong></h1>
-      </header>
     <?php
     include ('conecta.php');
     $nome = $_POST["tnome"];
@@ -33,5 +29,4 @@
     */
     ?>
 </div>
-</body>
 </html>
