@@ -1,19 +1,14 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;
-500;
-700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-@font-face {
-    font-family: 'Droid';
-    src: url('../fonts/trajan-pro.otf') format('opentype');
-    font-style: bolder;
-}
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
+
 
 :root{
     --font1:Arial,Helvetica,sans-serif;
-    --font2:'Open Sans',sans-serif;
+    --font2:'Open Sans', sans-serif
     --font3:'FontAwesome',sans-serif;
-    --font4:'Droid', serif;
+    --font4:'Gentium Basic',  serif;
     --cor1:#aa5a5a;
     --cor2:#731414;
     --cor3:#25d366
@@ -27,6 +22,9 @@
 }
 body,html{
     min-height:100vh
+}
+header h1{
+    font-family: font-family: 'Gentium Basic', serif;
 }
 a{
     text-decoration:none;
@@ -227,8 +225,7 @@ span.sociais{
         padding:5px;
         min-height:50px;
         text-align:center;
-        font-size:1em;
-        font-family:var(--font4)
+        font-size:4em;
     }
     main>p{
         max-width:75vw;
@@ -351,13 +348,12 @@ span.sociais{
         padding:5px;
         min-height:50px;
         text-align:center;
-        font-size:1em;
-        font-family:var(--font4)
+        font-size:4em;
     }
     main>p{
         max-width:99vw;
         text-align:justify;
-        font-size:1em;
+        font-size:1.5em;
         padding:2px auto 2px auto;
         text-align:center;
         margin:2px auto 2px auto;
@@ -369,7 +365,7 @@ span.sociais{
         margin:5px auto;
         display:block;
         text-align:justify;
-        font-size:1.3em
+        font-size:2em
     }
     p#tempo{
         display:block;
@@ -466,21 +462,21 @@ span.sociais{
         float: right;
         display: block;
         width: auto;
+        font-size: 2em;
     }
 }
 @media (min-width:750px) and (max-width:1050px){
     header{
-        font-family:var(--font4);
         background-image:linear-gradient(to top,var(--cor1),var(--cor2));
         padding:5px;
         min-height:50px;
         text-align:center;
-        font-size:1em;
+        font-size:2.5em;
     }
     main>p{
         max-width:99vw;
         text-align:justify;
-        font-size:1em;
+        font-size:1.5em;
         padding:2px auto 2px auto;
         text-align:center;
         margin:2px auto 2px auto;
@@ -492,7 +488,7 @@ span.sociais{
         margin:5px auto;
         display:block;
         text-align:justify;
-        font-size:1.3em
+        font-size:2em
     }
     p#tempo{
         display:block;
@@ -598,12 +594,12 @@ span.sociais{
         padding:5px;
         min-height:50px;
         text-align:center;
-        font-size:1em;
+        font-size:2em;
     }
     main>p{
         max-width:99vw;
         text-align:justify;
-        font-size:.8em;
+        font-size:1em;
         padding:2px auto 2px auto;
         text-align:center;
         margin:2px auto 2px auto;
@@ -615,7 +611,7 @@ span.sociais{
         margin:5px auto;
         display:block;
         text-align:justify;
-        font-size:1em
+        font-size:1.2em
     }
     p#tempo{
         display:block;
