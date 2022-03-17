@@ -23,7 +23,8 @@
     $sql = "INSERT INTO leads (ID, Nome, Email, dataatual) VALUES (NULL, '$nome','$email',$result)";
     
     if ($conn->query($sql) === TRUE) {
-      include('check.html')
+      include('check.html');
+      include('sendemail.php')
         // echo "Olá $nome, muito bem em breve você recebera seu ebook gratuitamente no seu email.$result</br>";
       } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
