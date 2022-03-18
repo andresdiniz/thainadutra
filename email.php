@@ -12,39 +12,32 @@
     
     $timezone = new DateTimeZone("America/Sao_Paulo");
     $agora = new DateTime('now', $timezone);
-    $result = $agora->format("Y-m-d H:i:s ");
+    $result = $agora->format("Y-m-d H:i:s");
+    $mensagem = "<html><body><p><b>Segue mini curso solicitado.</b></p><p><i>Assita aos videos pelos links a seguir</i></p>
+   <a href='https://fabricaderiqueza.com/mini-curso/'>Mini-curso</a>  
+   <p>Gostou? Vagas são limitadas</p>
+   <Button><a href='https://bit.ly/3tyDlyt'></a>Aproveite</Button>
+   </body></html>";
 
     // $texto = Nome: $nome</br> Email: $email;
     $sql = "INSERT INTO leads (ID, Nome, Email, dataatual) VALUES (NULL, '$nome','$email','$result')";
-    
-    if ($conn->query($sql) === TRUE) {
-      include('check.html');
-      // ENviar email..
-
-          use PHPMailer\PHPMailer\PHPMailer;
-          require 'vendor/autoload.php';
-          $mail = new PHPMailer;
-          $mail->isSMTP();
-          $mail->SMTPDebug = 2;
-          $mail->Host = 'smtp.hostinger.com';
-          $mail->Port = 587;
-          $mail->SMTPAuth = true;
-          $mail->Username = 'sac@thainadutra.com.br';
-          $mail->Password = '30012022@ndrE';
-          $mail->setFrom('sac@thainadutra.com.br', 'Thaina');
-          $mail->addReplyTo('no-reply@thainadutra.com.br', 'Nao responda');
-          $mail->addAddress($email, $nome);
-          $mail->Subject = 'Testing PHPMailer';
-          //$mail->msgHTML(file_get_contents('message.html'), __DIR__);
-          $mail->Body = 'This is a plain text message body';
-          //$mail->addAttachment('test.txt');
-          if (!$mail->send()) {
-              echo 'Mailer Error: ' . $mail->ErrorInfo;
-          } else {
-              echo 'The email message was sent.';
-          }
-
+ 
 // Fim enviar email
+
+    if ($conn->query($sql) === TRUE) {
+    include('check.html');
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $from = "sac@thainadutra.com.br";
+    $to = $email;
+    $subject = "Mini-curso";
+    $message = "Segue mini curso solicitado. Assita aos videos pelo link a seguir.
+   https://fabricaderiqueza.com/mini-curso/  
+   Curtiu? Vagas limitadas!!
+   https://bit.ly/3tyDlyt. Não vai perder, ou vai? Aproveite!";
+    $headers = "From:" . $from;
+    mail($to,$subject,$message, $headers);
+    
       } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
       }
