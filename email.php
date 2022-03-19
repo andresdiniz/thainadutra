@@ -31,7 +31,7 @@
     $from = "sac@thainadutra.com.br";
     $to = $email;
     $subject = "Mini-curso";
-    $message = "Segue mini curso solicitado. Assita aos videos pelo link a seguir.
+    $message = "Olá $nome, parabéns você deu o primeiro passo para mudar a sua vida. Segue mini curso solicitado. Assita aos videos pelo link a seguir.
    https://fabricaderiqueza.com/mini-curso/  
    Curtiu? Vagas limitadas!!
    https://bit.ly/3tyDlyt. Não vai perder, ou vai? Aproveite!";
