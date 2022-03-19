@@ -13,11 +13,6 @@
     $timezone = new DateTimeZone("America/Sao_Paulo");
     $agora = new DateTime('now', $timezone);
     $result = $agora->format("Y-m-d H:i:s");
-    $mensagem = "<html><body><p><b>Segue mini curso solicitado.</b></p><p><i>Assita aos videos pelos links a seguir</i></p>
-   <a href='https://fabricaderiqueza.com/mini-curso/'>Mini-curso</a>  
-   <p>Gostou? Vagas são limitadas</p>
-   <Button><a href='https://bit.ly/3tyDlyt'></a>Aproveite</Button>
-   </body></html>";
 
     // $texto = Nome: $nome</br> Email: $email;
     $sql = "INSERT INTO leads (ID, Nome, Email, dataatual) VALUES (NULL, '$nome','$email','$result')";
