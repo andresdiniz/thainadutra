@@ -85,8 +85,8 @@ div#spanRelogio{
     position:relative;
     display:block;
     margin:0 auto;
-    max-width:350px;
-    min-width:200px;
+    max-width:550px;
+    min-width:250px;
     padding:1em;
     border-radius:1em
 }
@@ -175,7 +175,8 @@ a#flutuante:hover>div{
 form p{
   text-align: center;
   margin: auto;
-  padding: 1px;
+  padding: 2px;
+  font-size: 1.5em;
 }
 footer{
     clear:both;
@@ -643,7 +644,7 @@ span.sociais{
         font-size:2em;
     }
     main>p{
-        max-width:99vw;
+        max-width:100vw;
         text-align:justify;
         font-size:1.5em;
         padding:2px auto 2px auto;
@@ -733,7 +734,7 @@ span.sociais{
         margin:auto
     }
     label{
-        width:65px;
+        width:75px;
         text-align:right
     }
     footer{
@@ -766,6 +767,13 @@ footer.redes {
     font-size: 1.8em;
     color: rgb(65, 60, 60);
 }
+form p{
+  text-align: center;
+  margin: auto;
+  padding: 2px;
+  font-size: 1em;
+  }
+
 span.sociais{
     margin: 0px 15px 0px 0px;
     text-align: right;
