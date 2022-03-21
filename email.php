@@ -27,9 +27,8 @@
     $to = $email;
     $subject = "Mini-curso";
     $message = "Olá $nome, parabéns você deu o primeiro passo para mudar a sua vida. Segue mini curso solicitado. Assita aos videos pelo link a seguir.
-   https://fabricaderiqueza.com/mini-curso/  
-   Curtiu? Vagas limitadas!!
-   https://bit.ly/3tyDlyt. Não vai perder, ou vai? Aproveite!";
+    https://fabricaderiqueza.com/mini-curso/ ! Duvidas? Whatsapp https://bit.ly/3INSsdM ! 
+    Curtiu? Vagas limitadas!!https://bit.ly/3tyDlyt. Não vai perder, ou vai? Aproveite!";
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
     
