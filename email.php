@@ -26,9 +26,10 @@
     $from = "sac@thainadutra.com.br";
     $to = $email;
     $subject = "Mini-curso";
-    $message = "Olá $nome, parabéns você deu o primeiro passo para mudar a sua vida. Segue minicurso solicitado. Assista aos vídeos pelo link a seguir.
-    https://fabricaderiqueza.com/mini-curso/ ! Duvidas? WhatsApp https://bit.ly/3INSsdM ! 
-    Curtiu? Vagas limitadas!!https://bit.ly/3tyDlyt. Não vai perder, ou vai? Aproveite!
+    $message = "Olá $nome, parabéns você deu o primeiro passo para mudar a sua vida. Segue minicurso solicitado. 
+    Assista aos vídeos pelo link a seguir. https://fabricaderiqueza.com/mini-curso/ ! 
+    Duvidas? WhatsApp https://bit.ly/3INSsdM ! Curtiu? Vagas limitadas!!https://bit.ly/3tyDlyt. 
+    Não vai perder, ou vai? Aproveite!
 ";
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
