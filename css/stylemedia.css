@@ -24,7 +24,7 @@ body,html{
     min-height:100vh
 }
 header h1{
-    font-family: font-family: 'Gentium Basic', serif;
+    font-family: var(--font4);
 }
 a{
     text-decoration:none;
