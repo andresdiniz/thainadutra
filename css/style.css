@@ -39,7 +39,7 @@ header{
     font-size: 2em;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 1PX 1PX 1PX black;
+    text-shadow: 1px 1px 1px black;
 }
 main{
     width: 98.8;
@@ -159,7 +159,7 @@ p#CTA{
         border-radius: 5px;
         box-shadow: 1px 1px 1px black;
         background-color: var(--cor4);
-        width: 40%;
+        width: 45%;
         padding: 6px;
     }
     div>iframe{
