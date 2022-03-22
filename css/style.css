@@ -133,9 +133,13 @@ p#CTA{
         margin: 2px 3px;
         padding: 2px;
     }
-
-
-
+    section>p{
+        font-size: 3em;
+    }
+    a#zap{
+        background-color: rgb(236, 242, 247) ;
+        width: 50%;
+    }
 
 
 .fadeIn {
@@ -207,6 +211,10 @@ p#CTA{
     section>h2{
     font-size: 2.5em;
     }
+    
+    section>p{
+        font-size: 2em;
+    }
 }
 
 @media (min-width:620px) and (max-width:800px){
@@ -230,6 +238,10 @@ p#CTA{
     .galeria>img{
     background-color: #000000;
     width: 40%;
+    }
+    
+    section>p{
+        font-size: 1.6em;
     }
 
 }
@@ -259,4 +271,14 @@ p#CTA{
     zoom: 3;
     width: 70%;
     }
+    
+    section>p{
+        font-size: 1.1em;
+    }
+    
+    button#zap{
+        margin: auto;
+        display: inline-block;
+        width: 200px;
+        height: 5px;
 }
