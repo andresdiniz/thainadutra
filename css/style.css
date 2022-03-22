@@ -39,6 +39,8 @@ header{
     box-shadow: 1px 1px 1px black;
     font-size: 3em;
     font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1PX 1PX 1PX black;
 }
 main{
     width: 98.8;
@@ -95,7 +97,7 @@ p#CTA{
     }
     p#tempo{
         margin: 20px auto 20px auto;
-        line-height: 0em;
+        line-height: 0.2em;
         font-size: 3em;
     }
     div#spanRelogio{
