@@ -147,8 +147,6 @@ p#CTA{
         font-size: 3em;
     }
     a#zap{
-        background-color: rgb(236, 242, 247) ;
-        width: 50%;
     }
         a#zap:hover{
         background-color: rgb(236, 242, 247) ;
@@ -222,7 +220,16 @@ a#flutuante:hover>div{
     box-shadow: 2px 1px 1px solid;
     color: #000;
 }
-
+.enviar{
+    background-color: var(--cor3);
+    border-radius: 5px;
+    width: 45%;
+    color: #fff;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
 
 .fadeIn {
 	opacity: 1;
@@ -448,9 +455,10 @@ span.sociais{
         font-size: 1.5em;
     }
     main p#headline{
+        
         font-size: 1.2em;
-        text-align: justify;
-        margin: auto;
+        text-align: center;
+        margin: 5px auto;
         padding: 5px 30px 5px 0px;   
     }
     button#compra>a{
@@ -514,3 +522,8 @@ span.sociais{
     span.sociais{
         width: 20%;
     }
+    .enviar{
+    padding: 2px;
+    font-size:0.8em;
+    }
+}
