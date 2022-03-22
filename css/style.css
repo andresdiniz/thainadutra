@@ -37,6 +37,7 @@ header{
 	padding: 5px;
 	border-radius:  5px 5px 0px 0px;
     box-shadow: 1px 1px 1px black;
+    font-size: 3em;
 }
 main{
     width: 98.8;
