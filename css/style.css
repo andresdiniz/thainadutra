@@ -134,6 +134,7 @@ p#CTA{
         width: 22%;
         margin: 2px 3px;
         padding: 2px;
+        image-rendering: optimizeSpeed;
     }
     section>p{
         font-size: 3em;
@@ -141,6 +142,12 @@ p#CTA{
     a#zap{
         background-color: rgb(236, 242, 247) ;
         width: 50%;
+    }
+        a#zap:hover{
+        background-color: rgb(236, 242, 247) ;
+        zoom: 1.5;
+        width: 65%;
+        image-rendering: optimizeQuality;
     }
 
 
