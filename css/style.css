@@ -3,7 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Basic&display=swap');
 
-
 :root{
     --font1:Arial,Helvetica,sans-serif;
     --font2:'Open Sans', sans-serif;
@@ -21,6 +20,7 @@
     font-weight:bolder;
     text-decoration:none;
     text-align: center;
+    font-display: swap;
 }
 body,html{
     min-height:100vh
@@ -448,8 +448,6 @@ span.sociais{
     span.sociais{
         width: 20%;
     }
-
-
 }
 @media screen and (max-width:620px){
     header{
@@ -515,13 +513,15 @@ span.sociais{
         font-size: 1em;
     }
     footer.redes {
-
         height: 150px;
         font-size: 1em;
 
     }
     span.sociais{
         width: 20%;
+    }
+    form p{
+        font-size: 0.6em;
     }
     .enviar{
     padding: 2px;
