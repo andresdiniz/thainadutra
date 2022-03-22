@@ -177,7 +177,13 @@ p#CTA{
         width: auto;
         margin: 5px auto;
         padding: 5px;
-    }
+        
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+        }
     button#naoperca a{
         color: white;
         font-size: 3em;
@@ -303,10 +309,6 @@ span.sociais{
     text-align: center;
 }
 
-
-
-
-
 @media (min-width:1000px) {
 
     main p#headline{
@@ -340,7 +342,6 @@ span.sociais{
     div>iframe{
         width: 90%;
     }
-
 }
 
 
