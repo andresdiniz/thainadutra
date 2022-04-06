@@ -13,6 +13,7 @@
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
       <meta name="description" content="O curso Fabrica de Riqueza, que você terá acesso a diversos conteúdos de marketing digital, como técnicas de funil de vendas e ferramentas para anúncios.">
       <meta name="theme-color" content="#aa5a5a">
       <meta name="keywords" content="fábrica de riqueza, ganhar,dinheiro, em casa, celular, interner, financeiro desenvolvimento, fábrica, João Marcus, ">
@@ -95,12 +96,12 @@
          <p id="CTA">Acesse já o link</p>
    
                <button id="compra" class="btn">
-                  <a href="https://bit.ly/3sMprKd" target="_blank">Aproveite!!</a>
+                  <a id="compra1" onclick="return gtag_report_conversion('https://bit.ly/3sMprKd');" href="https://bit.ly/3sMprKd" target="_blank">Aproveite!!</a>
                </button>
             
          <p id="tempo">Não fique aí parado, aproveite enquanto é tempo!</p>
          <p id="tempo">Vagas limitadas!</p>
-         <div id="spanRelogio"></div>
+         <!-- <div id="spanRelogio"></div> -->
          <!-- <picture>
             <source media="(max-width: 450px )" srcset="imagens/perfilp.webp" type="image/webp">
             <source media="(max-width: 650px )" srcset="imagens/perfilm.webp" type="image/webp">
@@ -121,7 +122,7 @@
             <p>É possível, vem que eu te explico como!</p><p>Não perca essa oportunidade de mudar de vida!</p>
          </section>
          
-            <a id="zap" href="https://bit.ly/3INSsdM" target="_blank"><img src="imagens/download.png" alt=""></a>
+            <a id="whatsimagem" onclick="return gtag_report_conversion('imagens/download.png');" id="zap" href="https://bit.ly/3INSsdM" target="_blank"><img src="imagens/download.png" alt=""></a>
          
 
          <p>Deseja receber um curso gratuito no seu e-mail agora?</p>
@@ -132,22 +133,24 @@
                 <p><label for="cemail">E-mail:</label> <input class="campo" type="email" name="temail" id="cemail" placeholder="Insira seu melhor email" maxlength="40" max="12" required>
                 </p>
                 <p><input type="checkbox" name="tcheck" id="ccheck" required><label id="checkemail" for="ccheck"> Concordo em receber emails!</label></p>
-                <input class="enviar" type="submit" value="EU QUERO!!">
+                <input id="EnviaFormulario" onclick="return gtag_report_conversion('EU QUERO')" class="enviar" type="submit" value="EU QUERO!!">
              </form>
          </div>
-          <p>Quer ganhar dinheiro sem sair de casa, assista ao vídeo e tenha detalhes de como o curso é dividido. Com ele você vai mudar sua realidade financeira, transformar a sua vida e ter sucesso.</p>
+          <p>Quer ganhar dinheiro sem sair de casa, assista ao vídeo e detalhes de de todo o conteúdo que você terá acesso. Com ele você vai mudar sua realidade financeira, ter liberdade de trabalhar de casa e isso vai transformar a sua vida.</p>
          <div>
-            <iframe autoplay defer src="https://www.youtube.com/embed/UpfDHIeF7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe id="videoyt" onclick="return gtag_report_conversion('https://www.youtube.com/embed/UpfDHIeF7JA');" defer src="https://www.youtube.com/embed/UpfDHIeF7JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"autoplay aria-controls="3" allowfullscreen></iframe>
          </div>
          <!-- <p>Não perca esta oportunidade! Tire suas duvidas pelo meu Whatsapp</p> -->
          <!--  -->
          <p>Não perca esta chance! Adquira já seu treinamento!</p>
-         <p>Com menos de R$1,00 por dia você vai mudar sua carreira.</p>
+         <p>Com menos de R$1,00 por dia você vai mudar sua vida financeira.</p>
          <button id="naoperca" class="btn">
-            <a href="https://bit.ly/3tyDlyt" target="_blank">NÃO PERCA! VAGAS LIMITADAS! </button>
+            <a  id="compra" onclick="return gtag_report_conversion('https://bit.ly/3tyDlyt');"  href="https://bit.ly/3tyDlyt" target="_blank">NÃO PERCA! VAGAS LIMITADAS! </button>
          </a>
-         <p> Te garanto, você vai apreender marketing digital, as vagas são limitadas.</p>
-         <a id="flutuante" href="https://bit.ly/3INSsdM" target="_blank" onmo >
+         <p id="rodape-btn">12xR$29,90</p>
+         <p> Não deixe esta oportunidade passar. Te garanto, você vai apreender marketing digital, as vagas são limitadas.</p>
+         <a id="flutuante" onclick="return gtag_report_conversion('https://bit.ly/3INSsdM');"
+         href="https://bit.ly/3INSsdM" target="_blank" >
             <i style="margin-top:16px" class="fa fa-whatsapp"></i>
             <div class="mensagem" ><span class="tooltiptext">Entre em contato!</span></div>
              </a>

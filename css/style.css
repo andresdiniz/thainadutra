@@ -23,7 +23,7 @@
     font-display: swap;
 }
 body,html{
-    min-height:100vh
+    min-height:100vh;
 }
 
 header{
@@ -134,6 +134,7 @@ p#CTA{
     }
 
     .galeria{
+        scroll-behavior: smooth;
         margin: auto;
     }
     .galeria>img{
@@ -159,10 +160,13 @@ p#CTA{
         border-radius: 5px;
         box-shadow: 1px 1px 1px black;
         background-color: var(--cor4);
-        width: 45%;
+        max-width: 450px;
+        width: 55%;
+        min-width: 200px;
         padding: 6px;
     }
     div>iframe{
+        scroll-behavior: smooth;
         background-color: #66493D;
         padding: 10px;
         border-radius: 15px;
@@ -189,7 +193,11 @@ p#CTA{
         font-size: 3em;
 
     }
-    
+p#rodape-btn{
+    font-size: 1em;
+    margin: auto;
+    text-align: center;
+}   
 a#flutuante{
     position:fixed;
     width:50px;
@@ -334,7 +342,9 @@ span.sociais{
 }
     .galeria>img{
     background-color: #000000;
+    max-width: 250px;
     width: 19.5%;
+    min-width: 200px;
 }
     main>p{
     font-size: 2.5em;
@@ -451,17 +461,21 @@ span.sociais{
 }
 @media screen and (max-width:620px){
     header{
-        font-size: 1.5em;
+        font-size: 1em;
     }
     main p#headline{
         
         font-size: 1.2em;
         text-align: center;
-        margin: 5px auto;
+        margin: auto;
         padding: 5px 30px 5px 0px;   
     }
     button#compra>a{
         font-size: 2em;
+    }
+    p{
+        padding: 15px;
+        margin: 15px;
     }
     p#tempo{
     padding: 5px 10px 5px 0px;
@@ -482,6 +496,7 @@ span.sociais{
     
     section>p{
         font-size: 1.1em;
+        padding: 10px;
     }
     
     button#zap{
