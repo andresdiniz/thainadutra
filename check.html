@@ -32,6 +32,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script language="javaScript" src="javascript/funcoes.js"></script>
 
+<script src="https://www.google.com/recaptcha/enterprise.js?render=6Ldo3E0fAAAAALOxGTr86qN0kd5CHYPlTq0vDigW"></script>
+<script>
+grecaptcha.enterprise.ready(function() {
+    grecaptcha.enterprise.execute('6Ldo3E0fAAAAALOxGTr86qN0kd5CHYPlTq0vDigW', {action: 'login'}).then(function(token) {
+       ...
+    });
+});
+</script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDS31CN4EW"></script>
