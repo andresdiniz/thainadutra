@@ -1,5 +1,5 @@
-// var hora,min, seg,mins,segs;	hora = 0;	min = 15;		seg = 01;	
-// let mensagem = document.querySelector(".mensagem") ;
+var hora,min, seg,mins,segs;	hora = 0;	min = 15;		seg = 01;	
+let mensagem = document.querySelector(".mensagem") ;
 // 	function relogio(){			
 // 		if((hora > 0 || min > 0) || (seg > 0)){				
 // 			if(seg == 0){					
@@ -40,3 +40,7 @@
 	function hideMessage(){
   		mensagem.style.display = "none"; 
 	}
+
+function newPopup(){
+varWindow = window.open ('popup.html', 'popup')
+}
