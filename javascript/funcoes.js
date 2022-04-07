@@ -40,7 +40,3 @@ let mensagem = document.querySelector(".mensagem") ;
 	function hideMessage(){
   		mensagem.style.display = "none"; 
 	}
-
-function newPopup(){
-varWindow = window.open ('popup.html', 'popup')
-}
