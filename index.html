@@ -116,12 +116,12 @@
          
          <p>Deseja receber um curso gratuito no seu e-mail agora?</p>
          <div id="formulario">
-             <form method="POST" action="email.php">
+             <form method="POST" action="../../lp/email.php">
                 <p><label for="cnome">Nome:</label> <input class="campo" type="text" name="tnome" id="cnome" placeholder="Insira seu nome" maxlength="30" max="12" required>
                 </p>
                 <p><label for="cemail">E-mail:</label> <input class="campo" type="email" name="temail" id="cemail" placeholder="Insira seu melhor email" maxlength="40" max="12" required>
                 </p>
-                <p><input type="checkbox" name="tcheck" id="ccheck" required><label id="checkemail" for="ccheck"> Concordo em receber emails!</label></p>
+                <p><input class="text-form" type="checkbox" name="tcheck" id="ccheck" required><label class="text-form" id="checkemail" for="ccheck"> Concordo em receber emails!</label></p>
                 <input id="EnviaFormulario" onclick="return gtag_report_conversion('EU QUERO')" class="enviar" type="submit" value="EU QUERO!!">
              </form>
          </div>
