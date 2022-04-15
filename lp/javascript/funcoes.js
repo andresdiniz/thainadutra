@@ -1,6 +1,6 @@
-var hora,min, seg,mins,segs;	hora = 0;	min = 15;		seg = 01;	
+var hora,min, seg,mins,segs;	hora = 0;	min = 2;		seg = 01;	
 let mensagem = document.querySelector(".mensagem") ;
-let titulo = document.querySelector(".titulo");
+
 	function relogio(){			
 		if((hora > 0 || min > 0) || (seg > 0)){				
 			if(seg == 0){					
