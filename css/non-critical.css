@@ -1,0 +1,12 @@
+.grid{
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    border: 2px solid black;
+    margin: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    text-decoration: none;
+    text-overflow: clip;
+    padding: 5px;
+    }
