@@ -27,7 +27,7 @@
     $to = $email;
     $subject = "Mini-curso";
     $message = "Olá $nome, parabéns você deu o primeiro passo para mudar a sua vida. Segue minicurso solicitado. 
-    Assista aos vídeos pelo link a seguir. https://fabricaderiqueza.com/mini-curso/ ! Duvidas? 
+    Assista aos vídeos pelo link a seguir. https://bit.ly/3OGfg2z ! Duvidas? 
     WhatsApp https://bit.ly/3INSsdM ! Curtiu? Vagas limitadas!!https://bit.ly/3tyDlyt. 
     Não vai perder, ou vai? Aproveite!
 ";
